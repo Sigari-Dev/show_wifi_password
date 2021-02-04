@@ -26,5 +26,5 @@ def get_profiles_info(profile):
 
 if __name__ == "__main__":
     print(get_all_profiles())
-    profile = input("Enter the profile Name: ")
+    profile = input("Enter the wifi Name: ")
     print(get_profiles_info(profile))
